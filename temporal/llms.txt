@@ -14,17 +14,17 @@ Get Connected with the Temporal Python Community:
 
 Core Application
 Use the essential components of a Temporal Application (Workflows, Activities, and Workers) to build and run a Temporal application.
-- Develop a Basic Workflow: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/core-application#develop-workflows.mdx
-- Develop a Basic Activity: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/core-application#develop-activities.mdx
-- Start an Activity Execution: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/core-application#activity-execution.mdx
-- Run Worker Processes: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/core-application#run-a-dev-worker.mdx
+- Develop a Basic Workflow: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/core-application.mdx
+- Develop a Basic Activity: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/core-application.mdx
+- Start an Activity Execution: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/core-application.mdx
+- Run Worker Processes: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/core-application.mdx
 
 Temporal Client
 Connect to a Temporal Service and start a Workflow Execution.
-- Connect to Development Temporal Service: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/temporal-clients#connect-to-development-service.mdx
-- Connect a Temporal Client to a Temporal Service: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/temporal-clients#connect-to-a-dev-cluster.mdx
-- Connect to Temporal Cloud: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/temporal-clients#connect-to-temporal-cloud.mdx
-- Start a Workflow Execution: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/temporal-clients#start-workflow-execution.mdx
+- Connect to Development Temporal Service: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/temporal-clients.mdx
+- Connect a Temporal Client to a Temporal Service: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/temporal-clients.mdx
+- Connect to Temporal Cloud: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/temporal-clients.mdx
+- Start a Workflow Execution: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/temporal-clients.mdx
 
 Python SDK Sandbox
 Use third-party Python modules without non-deterministic behavior.
@@ -36,29 +36,29 @@ https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/python
 
 Testing
 Set up the testing suite and test Workflows and Activities.
-- Test Frameworks: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/testing-suite#test-frameworks.mdx
-- Testing Activities: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/testing-suite#test-activities.mdx
-- Testing Workflows: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/testing-suite#test-workflows.mdx
-- How to Replay a Workflow Execution: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/testing-suite#replay.mdx
+- Test Frameworks: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/testing-suite.mdx
+- Testing Activities: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/testing-suite.mdx
+- Testing Workflows: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/testing-suite.mdx
+- How to Replay a Workflow Execution: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/testing-suite.mdx
 
 Failure detection
 Explore how your application can detect failures using timeouts and automatically attempt to mitigate them with retries.
-- Workflow Timeouts: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/failure-detection#workflow-timeouts.mdx
-- Set Activity Timeouts: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/failure-detection#activity-timeouts.mdx
-- Heartbeat an Activity: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/failure-detection#activity-heartbeats.mdx
+- Workflow Timeouts: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/failure-detection.mdx
+- Set Activity Timeouts: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/failure-detection.mdx
+- Heartbeat an Activity: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/failure-detection.mdx
 
 Workflow message passing
 Send messages to and read the state of Workflow Executions.
-- Develop with Signals: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/message-passing#signals.mdx
-- Develop with Queries: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/message-passing#queries.mdx
-- Develop with Updates: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/message-passing#updates.mdx
-- What is a Dynamic Handler: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/message-passing#dynamic-handler.mdx
+- Develop with Signals: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/message-passing.mdx
+- Develop with Queries: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/message-passing.mdx
+- Develop with Updates: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/message-passing.mdx
+- What is a Dynamic Handler: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/message-passing.mdx
 
 Interrupt a Workflow feature guide
 Interrupt a Workflow Execution with a Cancel or Terminate action.
-- Cancel a Workflow: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/cancellation#cancellation.mdx
-- Terminate a Workflow: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/cancellation#termination.mdx
-- Cancel an Activity from a Workflow: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/cancellation#cancel-activity.mdx
+- Cancel a Workflow: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/cancellation.mdx
+- Terminate a Workflow: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/cancellation.mdx
+- Cancel an Activity from a Workflow: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/cancellation.mdx
 
 Asynchronous Activity completion
 Complete Activities asynchronously.
@@ -66,16 +66,16 @@ https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/asynch
 
 Versioning
 Change Workflow Definitions without causing non-deterministic behavior in running Workflows.
-- Introduction to Versioning: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/versioning#introduction-to-versioning.mdx
-- How to Use the Patching API: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/versioning#python-sdk-patching-api.mdx
-- How to Use Worker Versioning: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/versioning#worker-versioning.mdx
+- Introduction to Versioning: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/versioning.mdx
+- How to Use the Patching API: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/versioning.mdx
+- How to Use Worker Versioning: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/versioning.mdx
 
 Observability
 Configure and use the Temporal Observability APIs.
-- Emit Metrics: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/observability#metrics.mdx
-- Set up tracing: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/observability#tracing.mdx
-- Log from a Workflow: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/observability#logging.mdx
-- Use Visibility APIs: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/observability#visibility.mdx
+- Emit Metrics: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/observability.mdx
+- Set up tracing: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/observability.mdx
+- Log from a Workflow: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/observability.mdx
+- Use Visibility APIs: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/observability.mdx
 
 Debugging
 Explore various ways to debug your application.
@@ -83,14 +83,14 @@ https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/debugg
 
 Schedules
 Run Workflows on a schedule and delay the start of a Workflow.
-- Schedule a Workflow: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/schedules#schedule-a-workflow.mdx
-- Temporal Cron Jobs: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/schedules#temporal-cron-jobs.mdx
-- Start Delay: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/schedules#start-delay.mdx
+- Schedule a Workflow: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/schedules.mdx
+- Temporal Cron Jobs: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/schedules.mdx
+- Start Delay: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/schedules.mdx
 
 Data encryption
 Use compression, encryption, and other data handling by implementing custom converters and codecs.
-- Custom Payload Codec: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/converters-and-encryption#custom-payload-codec.mdx
-- Payload Conversion: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/converters-and-encryption#payload-conversion.mdx
+- Custom Payload Codec: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/converters-and-encryption.mdx
+- Payload Conversion: https://github.com/hotheat/llmstxt/blob/main/temporal_docs/develop/python/converters-and-encryption.mdx
 
 Durable Timers
 Use Timers to make a Workflow Execution pause or "sleep" for seconds, minutes, days, months, or years.
