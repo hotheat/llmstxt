@@ -1,0 +1,105 @@
+PYTHON SPECIFIC RESOURCES
+
+Build Temporal Applications with the Python SDK.
+
+Temporal Python Technical Resources:
+- Python API Documentation: https://python.temporal.io/
+- Python SDK Code Samples: https://github.com/temporalio/samples-python
+- Python SDK Github: https://github.com/temporalio/sdk-python
+- Temporal 101 in Python Free Course: https://learn.temporal.io/courses/temporal_101/python/
+
+Get Connected with the Temporal Python Community:
+- Temporal Python Community Slack: https://app.slack.com/client/TNWA8QCGZ
+- Python SDK Forum: https://community.temporal.io/tag/python-sdk
+
+Core Application
+Use the essential components of a Temporal Application (Workflows, Activities, and Workers) to build and run a Temporal application.
+- Develop a Basic Workflow: https://docs.temporal.io/develop/python/core-application#develop-workflows
+- Develop a Basic Activity: https://docs.temporal.io/develop/python/core-application#develop-activities
+- Start an Activity Execution: https://docs.temporal.io/develop/python/core-application#activity-execution
+- Run Worker Processes: https://docs.temporal.io/develop/python/core-application#run-a-dev-worker
+
+Temporal Client
+Connect to a Temporal Service and start a Workflow Execution.
+- Connect to Development Temporal Service: https://docs.temporal.io/develop/python/temporal-clients#connect-to-development-service
+- Connect a Temporal Client to a Temporal Service: https://docs.temporal.io/develop/python/temporal-clients#connect-to-a-dev-cluster
+- Connect to Temporal Cloud: https://docs.temporal.io/develop/python/temporal-clients#connect-to-temporal-cloud
+- Start a Workflow Execution: https://docs.temporal.io/develop/python/temporal-clients#start-workflow-execution
+
+Python SDK Sandbox
+Use third-party Python modules without non-deterministic behavior.
+https://docs.temporal.io/develop/python/python-sdk-sandbox
+
+Python SDK sync vs. async implementations
+Implement synchronous or asynchronous Activities.
+https://docs.temporal.io/develop/python/python-sdk-sync-vs-async
+
+Testing
+Set up the testing suite and test Workflows and Activities.
+- Test Frameworks: https://docs.temporal.io/develop/python/testing-suite#test-frameworks
+- Testing Activities: https://docs.temporal.io/develop/python/testing-suite#test-activities
+- Testing Workflows: https://docs.temporal.io/develop/python/testing-suite#test-workflows
+- How to Replay a Workflow Execution: https://docs.temporal.io/develop/python/testing-suite#replay
+
+Failure detection
+Explore how your application can detect failures using timeouts and automatically attempt to mitigate them with retries.
+- Workflow Timeouts: https://docs.temporal.io/develop/python/failure-detection#workflow-timeouts
+- Set Activity Timeouts: https://docs.temporal.io/develop/python/failure-detection#activity-timeouts
+- Heartbeat an Activity: https://docs.temporal.io/develop/python/failure-detection#activity-heartbeats
+
+Workflow message passing
+Send messages to and read the state of Workflow Executions.
+- Develop with Signals: https://docs.temporal.io/develop/python/message-passing#signals
+- Develop with Queries: https://docs.temporal.io/develop/python/message-passing#queries
+- Develop with Updates: https://docs.temporal.io/develop/python/message-passing#updates
+- What is a Dynamic Handler: https://docs.temporal.io/develop/python/message-passing#dynamic-handler
+
+Interrupt a Workflow feature guide
+Interrupt a Workflow Execution with a Cancel or Terminate action.
+- Cancel a Workflow: https://docs.temporal.io/develop/python/cancellation#cancellation
+- Terminate a Workflow: https://docs.temporal.io/develop/python/cancellation#termination
+- Cancel an Activity from a Workflow: https://docs.temporal.io/develop/python/cancellation#cancel-activity
+
+Asynchronous Activity completion
+Complete Activities asynchronously.
+https://docs.temporal.io/develop/python/asynchronous-activity-completion
+
+Versioning
+Change Workflow Definitions without causing non-deterministic behavior in running Workflows.
+- Introduction to Versioning: https://docs.temporal.io/develop/python/versioning#introduction-to-versioning
+- How to Use the Patching API: https://docs.temporal.io/develop/python/versioning#python-sdk-patching-api
+- How to Use Worker Versioning: https://docs.temporal.io/develop/python/versioning#worker-versioning
+
+Observability
+Configure and use the Temporal Observability APIs.
+- Emit Metrics: https://docs.temporal.io/develop/python/observability#metrics
+- Set up tracing: https://docs.temporal.io/develop/python/observability#tracing
+- Log from a Workflow: https://docs.temporal.io/develop/python/observability#logging
+- Use Visibility APIs: https://docs.temporal.io/develop/python/observability#visibility
+
+Debugging
+Explore various ways to debug your application.
+https://docs.temporal.io/develop/python/debugging
+
+Schedules
+Run Workflows on a schedule and delay the start of a Workflow.
+- Schedule a Workflow: https://docs.temporal.io/develop/python/schedules#schedule-a-workflow
+- Temporal Cron Jobs: https://docs.temporal.io/develop/python/schedules#temporal-cron-jobs
+- Start Delay: https://docs.temporal.io/develop/python/schedules#start-delay
+
+Data encryption
+Use compression, encryption, and other data handling by implementing custom converters and codecs.
+- Custom Payload Codec: https://docs.temporal.io/develop/python/converters-and-encryption#custom-payload-codec
+- Payload Conversion: https://docs.temporal.io/develop/python/converters-and-encryption#payload-conversion
+
+Durable Timers
+Use Timers to make a Workflow Execution pause or "sleep" for seconds, minutes, days, months, or years.
+https://docs.temporal.io/develop/python/timers
+
+Child Workflows
+Explore how to spawn a Child Workflow Execution and handle Child Workflow Events.
+https://docs.temporal.io/develop/python/child-workflows
+
+Continue-As-New
+Continue the Workflow Execution with a new Workflow Execution using the same Workflow ID.
+https://docs.temporal.io/develop/python/continue-as-new
